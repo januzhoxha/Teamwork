@@ -1,0 +1,98 @@
+* {
+    width: auto;
+    height: auto;
+}
+.container {
+    width: 718px;
+    height: 373px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+.image {
+    position: relative;
+    left: 610px;
+    bottom: 320px;
+}
+.hero {
+    width: 718px;
+    height: 373px;
+}
+.text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 72px;
+    color: #212529;
+}
+.text img {
+    position: relative;
+    bottom: 20px;
+    left: 180px;
+}
+.text p {
+    margin: 0;
+    padding-top: 24px;
+    color: #212529;
+    font-size: 18px;
+}
+.text a {
+    margin-top: 60px;
+    float: left;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #4F9CF9;
+    color: white;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;   
+}
+.Sponsors {
+    width: 1482px;
+    height: 373px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-right: 220px;
+    padding-left: 220px;
+}
+
+.Sponsors h1 {
+    margin: 0;
+    padding: 0;
+    width: 1482px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+}
+.logos {
+    display: flex;
+    width: 1482px;
+    height: 140px;
+    gap: 220px;
+}
+.logos img:nth-child(1) {
+    display: flex;
+    width: 56px;
+    height: 68px;
+}
+.logos img:nth-child(2) {
+    width: 278px;
+    height: 62px;
+}
+.logos img:nth-child(3) {
+    width: 280px;
+    height: 71px;
+}
+.logos img:nth-child(4) {
+    width: 211px;
+    height: 70px;
+} 
+.Sponsors__That-one-line {
+    position: relative;
+    left: 665px;
+    bottom: 20px;
+}
